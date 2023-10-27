@@ -28,7 +28,7 @@ if (cityElement) {
   cityElement.innerHTML = data.name;
 }
     /* document.querySelector(".temp").innerHTML = Math.round(data.main.temp) + "°c"; */
-    const tempElement = document.querySelector(".humidity") as HTMLElement;
+    const tempElement = document.querySelector(".temp") as HTMLElement;
 
 if (tempElement) {
   tempElement.innerHTML = Math.round(data.main.temp) + "°C";
